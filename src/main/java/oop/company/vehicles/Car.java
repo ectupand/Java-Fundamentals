@@ -35,15 +35,15 @@ public class Car {
         System.out.println("Lefter");
     }
 
+
     @Override
     public String toString() {
         return ("Car: "
                 + model + " "
                 + _class + ", "
                 + weight + " lb\nDriver: "
-                + driver.getFullName() + ", "
-                + driver.getExperience() + " year(s),\nEngine: "
-                + engine.getManufacturer() + ", "
-                + engine.getPower() + "kW");
+                + driver.toString() + "\nEngine: "
+                + engine.toString()
+        );
     }
 }

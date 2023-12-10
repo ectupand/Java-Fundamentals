@@ -1,17 +1,18 @@
-package oop;
+package oop.people;
 
-public class Student {
-    private String firstName;
-    private String lastName;
+public class Student extends Person {
     private String group;
+    private static final String DEFAULT_GROUP = "Group";
     private final double averageMark;
 
     public double getAverageMark() {
         return averageMark;
     }
 
-    public Student (double averageMark){
+    public Student (double averageMark, String fullName, int age){
+        super(fullName, age);
         this.averageMark = averageMark;
+        this.group = DEFAULT_GROUP;
     }
 
     public int getScholarship(){

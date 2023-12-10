@@ -1,21 +1,25 @@
 package oop.company.professions;
 
-import oop.Person;
+import oop.people.Person;
 
 public class Driver extends Person {
-    private final String fullName;
     private int experience;
 
     public Driver(String fullName, Integer experience) {
-        this.fullName = fullName;
+        super(fullName, 19);
         this.experience = experience;
     }
 
     public String getFullName() {
-        return fullName;
+        return super.getFullName();
     }
 
     public int getExperience() {
         return experience;
+    }
+
+    @Override
+    public String toString(){
+        return (this.getFullName() + ", " + this.getExperience() + " year(s)");
     }
 }

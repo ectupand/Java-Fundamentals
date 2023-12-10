@@ -1,6 +1,9 @@
-package oop;
+package oop.people;
 
 public class Person {
+    private static final String DEFAULT_NAME = "Adol";
+    private static final int DEFAULT_AGE = 9;
+
     private String fullName;
     private int age;
 
@@ -8,7 +11,11 @@ public class Person {
         this.fullName = fullName;
         this.age = age;
     }
-    public Person(){}
+
+    public Person(){
+        this.fullName = DEFAULT_NAME;
+        this.age = DEFAULT_AGE;
+    }
 
     public String getFullName(){
         return fullName;
@@ -21,7 +28,7 @@ public class Person {
         System.out.println(getFullName()+" says");
     }
     public void talk(){
-        System.out.println(getFullName()+" says");
+        move();
     }
 
 }

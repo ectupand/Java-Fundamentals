@@ -16,4 +16,10 @@ public class Engine {
     public String getManufacturer() {
         return manufacturer;
     }
+
+    @Override
+    public String toString(){
+        return (this.getManufacturer() + ", "
+                + this.getPower() + " kW");
+    }
 }

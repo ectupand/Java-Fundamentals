@@ -1,9 +1,10 @@
-package oop;
+package oop.people;
+
 
 public class Aspirant extends Student {
 
-    public Aspirant(double averageMark){
-        super(averageMark);
+    public Aspirant(double averageMark, String fullName, int age){
+        super(averageMark, fullName, age);
     }
 
     @Override
