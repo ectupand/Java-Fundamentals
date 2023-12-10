@@ -1,5 +1,9 @@
 package oop;
 
+import oop.company.details.Engine;
+import oop.company.professions.Driver;
+import oop.company.vehicles.Car;
+
 public class App {
     public static void main(String[] args) {
         System.out.println("-----------1-----------");
@@ -19,8 +23,22 @@ public class App {
         students[2] = aspirantAvg;
         students[3] = aspirantExcellent;
         for (Student student : students){
-            System.out.println(student.getClass().getName() + " " + student.getAverageMark() + " : " + student.getScholarship());
+            System.out.println(student.getClass().getName() + " "
+                    + student.getAverageMark() + " : "
+                    + student.getScholarship()
+            );
         }
+        System.out.println("-----------3-----------");
+        Driver driver = new Driver("Aboss", 9);
+        Engine engine = new Engine(999, "Naberezhny Chelnhy");
+        Car car = new Car(" 2022 Acura TLX",
+                "Sedan",
+                3.770,
+                driver,
+                engine
+                );
+        System.out.println(car);
+
     }
 
 }
