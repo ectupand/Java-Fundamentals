@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="Cars">
+    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="oop fix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/TautologyFixer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/Aspirant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/people/Aspirant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/people/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/people/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/company/details/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/company/details/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/company/professions/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/company/professions/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/company/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/company/vehicles/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/company/vehicles/Lorry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/company/vehicles/Lorry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/company/vehicles/SportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/company/vehicles/SportCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,32 +37,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/moyawa/IdeaProjects/killer&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/moyawa/IdeaProjects/wishmaster",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.oop.App">
+}]]></component>
+  <component name="RunManager" selected="Application.TautologyFixer">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="wishmaster" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TautologyFixer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.TautologyFixer" />
+      <module name="wishmaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TautologyFixer" />
         <item itemvalue="Application.oop.App" />
         <item itemvalue="Application.Main" />
       </list>
@@ -108,7 +114,8 @@
       <updated>1700649917345</updated>
       <workItem from="1700649918161" duration="1198000" />
       <workItem from="1702232304920" duration="7122000" />
-      <workItem from="1702240523029" duration="1841000" />
+      <workItem from="1702240523029" duration="6008000" />
+      <workItem from="1702297858797" duration="1206000" />
     </task>
     <task id="LOCAL-00001" summary="Person&amp;Students">
       <created>1702236811332</created>
@@ -124,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702239160186</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="oop fix">
+      <created>1702246314452</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702246314452</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +158,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Person&amp;Students" />
     <MESSAGE value="Cars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cars" />
+    <MESSAGE value="oop fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop fix" />
   </component>
 </project>
