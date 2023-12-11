@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="oop fix">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strings/TautologyFixer.java" afterDir="false" />
+    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="FindWithRegex.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/FindWithRegex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TautologyFixer">
+  <component name="RunManager" selected="Application.FindWithRegex">
+    <configuration name="FindWithRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.FindWithRegex" />
+      <module name="wishmaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="wishmaster" />
@@ -98,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindWithRegex" />
         <item itemvalue="Application.TautologyFixer" />
         <item itemvalue="Application.oop.App" />
         <item itemvalue="Application.Main" />
@@ -115,7 +129,7 @@
       <workItem from="1700649918161" duration="1198000" />
       <workItem from="1702232304920" duration="7122000" />
       <workItem from="1702240523029" duration="6008000" />
-      <workItem from="1702297858797" duration="1206000" />
+      <workItem from="1702297858797" duration="3750000" />
     </task>
     <task id="LOCAL-00001" summary="Person&amp;Students">
       <created>1702236811332</created>
@@ -138,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702246314452</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TautologyFixer.java">
+      <created>1702299235800</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702299235801</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +180,8 @@
     <MESSAGE value="Person&amp;Students" />
     <MESSAGE value="Cars" />
     <MESSAGE value="oop fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop fix" />
+    <MESSAGE value="TautologyFixer.java" />
+    <MESSAGE value="FindWithRegex.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="FindWithRegex.java" />
   </component>
 </project>
