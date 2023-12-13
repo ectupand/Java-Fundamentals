@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="FindWithRegex.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strings/FindWithRegex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/MinimumUniqueSymbolsFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,26 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/moyawa/IdeaProjects/wishmaster",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/moyawa/IdeaProjects/wishmaster&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.FindWithRegex">
+}</component>
+  <component name="RunManager" selected="Application.MinimumUniqueSymbolsFinder">
     <configuration name="FindWithRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.FindWithRegex" />
       <module name="wishmaster" />
@@ -76,6 +76,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumUniqueSymbolsFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.MinimumUniqueSymbolsFinder" />
+      <module name="wishmaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumUniqueSymbolsFinder" />
         <item itemvalue="Application.FindWithRegex" />
         <item itemvalue="Application.TautologyFixer" />
         <item itemvalue="Application.oop.App" />
@@ -129,7 +143,8 @@
       <workItem from="1700649918161" duration="1198000" />
       <workItem from="1702232304920" duration="7122000" />
       <workItem from="1702240523029" duration="6008000" />
-      <workItem from="1702297858797" duration="3750000" />
+      <workItem from="1702297858797" duration="7591000" />
+      <workItem from="1702419135182" duration="1981000" />
     </task>
     <task id="LOCAL-00001" summary="Person&amp;Students">
       <created>1702236811332</created>
@@ -159,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702299235801</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="FindWithRegex.java">
+      <created>1702308834062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702308834062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
