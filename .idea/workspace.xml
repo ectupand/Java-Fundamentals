@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/readables/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/readables/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/readables/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/readables/Readable.java" afterDir="false" />
+    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="readables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +147,7 @@
       <workItem from="1702297858797" duration="7591000" />
       <workItem from="1702419135182" duration="2009000" />
       <workItem from="1702693531764" duration="12000" />
-      <workItem from="1702730425000" duration="4724000" />
+      <workItem from="1702730425000" duration="5577000" />
     </task>
     <task id="LOCAL-00001" summary="Person&amp;Students">
       <created>1702236811332</created>
@@ -202,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702730669679</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="readables">
+      <created>1702756967900</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702756967900</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +230,7 @@
     <MESSAGE value="FindWithRegex.java" />
     <MESSAGE value="MinimumUniqueSymbolsFinder.java" />
     <MESSAGE value="workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+    <MESSAGE value="readables" />
+    <option name="LAST_COMMIT_MESSAGE" value="readables" />
   </component>
 </project>
