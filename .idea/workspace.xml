@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="MinimumUniqueSymbolsFinder.java">
+    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/readables/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/readables/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/readables/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/readables/Readable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,13 +61,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MinimumUniqueSymbolsFinder">
-    <configuration name="FindWithRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.FindWithRegex" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.App" />
       <module name="wishmaster" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="FindWithRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.FindWithRegex" />
       <module name="wishmaster" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.MinimumUniqueSymbolsFinder" />
         <item itemvalue="Application.FindWithRegex" />
         <item itemvalue="Application.TautologyFixer" />
         <item itemvalue="Application.oop.App" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +151,7 @@
       <workItem from="1702297858797" duration="7591000" />
       <workItem from="1702419135182" duration="2009000" />
       <workItem from="1702693531764" duration="12000" />
+      <workItem from="1702730425000" duration="4724000" />
     </task>
     <task id="LOCAL-00001" summary="Person&amp;Students">
       <created>1702236811332</created>
@@ -188,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702459852394</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="workspace.xml">
+      <created>1702730669679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702730669679</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +226,7 @@
     <MESSAGE value="TautologyFixer.java" />
     <MESSAGE value="FindWithRegex.java" />
     <MESSAGE value="MinimumUniqueSymbolsFinder.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="MinimumUniqueSymbolsFinder.java" />
+    <MESSAGE value="workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
   </component>
 </project>
