@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="enums">
+    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="internet\market">
       <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Clothes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/FemaleClothes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/MaleClothes.java" afterDir="false" />
@@ -13,13 +13,13 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Size.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Skirt.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/TShirt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/internet/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/internet/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/internet/market/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/internet/market/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/internet/market/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/enums/seasons/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/seasons/Season.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/internet/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internet/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/internet/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internet/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/internet/market/Basket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/internet/market/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internet/market/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/internet/market/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internet/market/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +166,7 @@
       <workItem from="1702693531764" duration="12000" />
       <workItem from="1702730425000" duration="12430000" />
       <workItem from="1702764654687" duration="1198000" />
-      <workItem from="1702791954872" duration="4072000" />
+      <workItem from="1702791954872" duration="14027000" />
     </task>
     <task id="LOCAL-00001" summary="Person&amp;Students">
       <created>1702236811332</created>
@@ -238,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702765270291</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="internet\market">
+      <created>1702807230387</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702807230387</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +273,8 @@
     <MESSAGE value="readables" />
     <MESSAGE value="fix array" />
     <MESSAGE value="enums" />
-    <option name="LAST_COMMIT_MESSAGE" value="enums" />
+    <MESSAGE value="internet\market" />
+    <option name="LAST_COMMIT_MESSAGE" value="internet\market" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
