@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="(WIP) pretty checkout">
-      <change afterPath="$PROJECT_DIR$/src/main/java/internet/market/Basket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="pretty checkout">
       <change beforePath="$PROJECT_DIR$/src/main/java/internet/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internet/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/internet/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internet/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/internet/market/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internet/market/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/internet/market/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internet/market/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +190,7 @@
       <workItem from="1702764654687" duration="1198000" />
       <workItem from="1702791954872" duration="22409000" />
       <workItem from="1702845158975" duration="598000" />
-      <workItem from="1702845803284" duration="7587000" />
+      <workItem from="1702845803284" duration="7893000" />
     </task>
     <task id="LOCAL-00001" summary="Person&amp;Students">
       <created>1702236811332</created>
@@ -296,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702848619111</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="pretty checkout">
+      <option name="closed" value="true" />
+      <created>1702856516803</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702856516804</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +331,8 @@
     <MESSAGE value="internet\market" />
     <MESSAGE value="internet\market 2" />
     <MESSAGE value="(WIP) pretty checkout" />
-    <option name="LAST_COMMIT_MESSAGE" value="(WIP) pretty checkout" />
+    <MESSAGE value="pretty checkout" />
+    <option name="LAST_COMMIT_MESSAGE" value="pretty checkout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

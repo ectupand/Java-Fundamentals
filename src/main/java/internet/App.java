@@ -26,7 +26,7 @@ public class App {
                 Product.PLAYSTATION_5_CONSOLE
         });
         Category[] categories = new Category[]{phones, earphones, laptops, etc};
-/*
+
         System.out.println("Enter login and password");
         Scanner in = new Scanner(System.in);
         System.out.println("Login: ");
@@ -69,9 +69,9 @@ public class App {
                 }
             }
         }
-        user.total();*/
+        user.total();
 
-        testCheckout();
+        //testCheckout();
     }
     private static void testCheckout(){
         Basket basket = new Basket();

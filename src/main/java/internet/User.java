@@ -4,7 +4,6 @@ import internet.market.Basket;
 import internet.market.Product;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -59,7 +58,7 @@ public class User {
             }
             firstColumnLength +=2;
         }
-        String checkoutDate = "%s%"+(firstColumnLength)+"tD%n";
+        String checkoutDate = "%s%"+(firstColumnLength+4)+"tD%n";
         String header = "%"+firstColumnLength+"s%9s%n";
         String body = "%"+firstColumnLength+"s%9d%n";
         System.out.format(checkoutDate, "Date:", todayDate);
