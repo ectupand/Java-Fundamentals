@@ -8,9 +8,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class App {
     public static void main(String[] args) {
-        Product.sortByCategory();
-        Product.getCategories();
-        Product.setCategories();
+        Category.getCategories();
+        Category.setCategories();
+        Category.sortByCategory();
 
         System.out.println("Enter login and password");
         Scanner in = new Scanner(System.in);
