@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="fix array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/seasons/AboutSeason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/seasons/Season.java" afterDir="false" />
+    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="enums">
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/FemaleClothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/MaleClothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Necktie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Pants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Skirt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/TShirt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/internet/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/internet/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/internet/market/Basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/internet/market/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/internet/market/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/seasons/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/seasons/Season.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,26 +55,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/moyawa/IdeaProjects/killer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/moyawa/IdeaProjects/killer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.enums.App">
+}</component>
+  <component name="RunManager" selected="Application.internet.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interfaces.App" />
       <module name="wishmaster" />
@@ -103,19 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TautologyFixer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.TautologyFixer" />
-      <module name="wishmaster" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="enums.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="enums.App" />
       <module name="wishmaster" />
@@ -129,13 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="internet.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="internet.App" />
+      <module name="wishmaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="internet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.internet.App" />
         <item itemvalue="Application.enums.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.MinimumUniqueSymbolsFinder" />
         <item itemvalue="Application.FindWithRegex" />
-        <item itemvalue="Application.TautologyFixer" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +165,8 @@
       <workItem from="1702419135182" duration="2009000" />
       <workItem from="1702693531764" duration="12000" />
       <workItem from="1702730425000" duration="12430000" />
-      <workItem from="1702764654687" duration="537000" />
+      <workItem from="1702764654687" duration="1198000" />
+      <workItem from="1702791954872" duration="4072000" />
     </task>
     <task id="LOCAL-00001" summary="Person&amp;Students">
       <created>1702236811332</created>
@@ -219,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702757700514</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="enums">
+      <created>1702765270291</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702765270291</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +265,8 @@
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="readables" />
     <MESSAGE value="fix array" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix array" />
+    <MESSAGE value="enums" />
+    <option name="LAST_COMMIT_MESSAGE" value="enums" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
