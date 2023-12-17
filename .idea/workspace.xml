@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="internet\market">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Clothes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/FemaleClothes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/MaleClothes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Necktie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Pants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Skirt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/TShirt.java" afterDir="false" />
+    <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="internet\market 2">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enums/seasons/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/seasons/Season.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/internet/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internet/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/internet/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internet/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/internet/market/Basket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/internet/market/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internet/market/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/internet/market/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internet/market/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +27,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ectupand&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7660d044-24dd-4694-9304-2835443094ac" />
+        <option name="url" value="https://github.com/ectupand/Java-Fundamentals" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="LLMProjectSettings">
+    <option name="turned_on" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,20 +64,22 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.internet.App.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/moyawa/IdeaProjects/killer&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -128,6 +137,8 @@
       </method>
     </configuration>
     <configuration name="internet.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="internet.App" />
       <module name="wishmaster" />
       <extension name="coverage">
@@ -140,6 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.enums.App" />
+      <item itemvalue="Application.FindWithRegex" />
+      <item itemvalue="Application.internet.App" />
+      <item itemvalue="Application.MinimumUniqueSymbolsFinder" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.internet.App" />
@@ -149,6 +167,13 @@
         <item itemvalue="Application.FindWithRegex" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -166,7 +191,9 @@
       <workItem from="1702693531764" duration="12000" />
       <workItem from="1702730425000" duration="12430000" />
       <workItem from="1702764654687" duration="1198000" />
-      <workItem from="1702791954872" duration="14027000" />
+      <workItem from="1702791954872" duration="22409000" />
+      <workItem from="1702845158975" duration="598000" />
+      <workItem from="1702845803284" duration="2029000" />
     </task>
     <task id="LOCAL-00001" summary="Person&amp;Students">
       <created>1702236811332</created>
@@ -245,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702807230387</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="internet\market 2">
+      <created>1702829377407</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702829377407</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +308,8 @@
     <MESSAGE value="fix array" />
     <MESSAGE value="enums" />
     <MESSAGE value="internet\market" />
-    <option name="LAST_COMMIT_MESSAGE" value="internet\market" />
+    <MESSAGE value="internet\market 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="internet\market 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -283,6 +318,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/enums/App.java</url>
           <line>6</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/internet/User.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

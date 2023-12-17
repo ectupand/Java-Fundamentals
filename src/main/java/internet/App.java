@@ -8,27 +8,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class App {
     public static void main(String[] args) {
-        Category phones = new Category("phones",
-                new Product[]{
-                        Product.IPHONE_13_PRO,
-                        Product.GOOGLE_PIXEL_7_PRO,
-                });
-        Category earphones = new Category("earphones",
-                new Product[]{
-                        Product.APPLE_AIRPODS_PRO,
-                        Product.BOSE_QUIETCOMFORT_45_HEADPHONES,
-                });
-        Category laptops = new Category("laptops",
-                new Product[]{
-                        Product.HUAWEI_MATEBOOK_14,
-                        Product.MICROSOFT_SURFACE_PRO_8,
-                });
-        Category apple = new Category("apple",
-                new Product[]{
-                        Product.APPLE_AIRPODS_PRO,
-                        Product.IPHONE_13_PRO,
-                });
-        Category[] catalogues = {phones, earphones, laptops, apple};
+        Product.sortByCategory();
+        Product.getCategories();
+        Product.setCategories();
 
         System.out.println("Enter login and password");
         Scanner in = new Scanner(System.in);
@@ -39,7 +21,7 @@ public class App {
         ArrayList<Product> basket = new ArrayList<>();
         User user = new User(login, password, basket, 1000);
 
-        printCatalogue(catalogues);
+        /*printCatalogue(catalogues);
         String catalogueName;
         ArrayList<Product> basketList = new ArrayList<>();
         while (!Objects.equals(catalogueName = in.nextLine(), "exit")){
@@ -74,7 +56,18 @@ public class App {
             }
         }
         user.total();
+*/
+        //testCheckout();
     }
+    private static void testCheckout(){
+        ArrayList<Product> basket= new ArrayList<>(Arrays.asList(
+                Product.APPLE_AIRPODS_PRO,
+                Product.BOSE_QUIETCOMFORT_45_HEADPHONES)
+        );
+        User user = new User("admin", "admin", basket, 1000);
+        user.total();
+    }
+
     private static void printCatalogue(Category[] catalogues){
         System.out.println("Available catalogues:");
         Arrays.stream(catalogues).forEach(System.out::println);

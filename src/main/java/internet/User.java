@@ -3,7 +3,6 @@ package internet;
 import internet.market.Product;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class User {
     private final String login;
@@ -22,8 +21,8 @@ public class User {
         this.basket = basket;
     }
 
-    public String getBasket() {
-        return basket.toString();
+    public ArrayList<Product> getBasket() {
+        return basket;
     }
 
     public int getWallet() {
@@ -50,6 +49,18 @@ public class User {
                 + "\nBasket:\n"
                 + getBasket()
         );
-
+        int firstColumnLength = 0;
+        /*if (!getBasket().isEmpty()){
+            //for (String product : getBasket().toString().substring(1,  getBasket().toString().length()-1).split(", ")){
+            for (Product product : getBasket()){
+                if (product.getName().length() > firstColumnLength){
+                    firstColumnLength = product.getName().length();
+                }
+                if (product.)
+            }
+            firstColumnLength +=5;
+        }*/
+        //System.out.format("%"+firstColumnLength+"s%"+
+        System.out.format("%12s%10s%16s", "string1", "int1", "string2");
     }
 }
