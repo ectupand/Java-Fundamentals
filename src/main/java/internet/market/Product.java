@@ -15,7 +15,6 @@ public enum Product {
     MICROSOFT_SURFACE_PRO_8("Microsoft Surface Pro 8", 999, 4.8F);
     private final String name;
     private final int price;
-    private String category;
     private Float rating;
 
     Product(String name, int price, Float rating) {

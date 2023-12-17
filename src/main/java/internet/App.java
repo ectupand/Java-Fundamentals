@@ -1,5 +1,6 @@
 package internet;
 
+import internet.market.Basket;
 import internet.market.Category;
 import internet.market.Product;
 
@@ -8,62 +9,74 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class App {
     public static void main(String[] args) {
-        Category.getCategories();
-        Category.setCategories();
-        Category.sortByCategory();
-
+        Category phones = new Category("phones", new Product[]{
+                Product.GOOGLE_PIXEL_7_PRO,
+                Product.IPHONE_13_PRO
+        });
+        Category earphones = new Category("earphones", new Product[]{
+                Product.APPLE_AIRPODS_PRO,
+                Product.BOSE_QUIETCOMFORT_45_HEADPHONES
+        });
+        Category laptops = new Category("laptops", new Product[]{
+                Product.HUAWEI_MATEBOOK_14,
+                Product.MICROSOFT_SURFACE_PRO_8
+        });
+        Category etc = new Category("etc", new Product[]{
+                Product.LG_OLED_C2_TV,
+                Product.PLAYSTATION_5_CONSOLE
+        });
+        Category[] categories = new Category[]{phones, earphones, laptops, etc};
+/*
         System.out.println("Enter login and password");
         Scanner in = new Scanner(System.in);
         System.out.println("Login: ");
         String login = in.nextLine();
         System.out.println("Password: ");
         String password = in.nextLine();
-        ArrayList<Product> basket = new ArrayList<>();
+        Basket basket = new Basket();
         User user = new User(login, password, basket, 1000);
 
-        /*printCatalogue(catalogues);
-        String catalogueName;
-        ArrayList<Product> basketList = new ArrayList<>();
-        while (!Objects.equals(catalogueName = in.nextLine(), "exit")){
-            for (Category catalogue : catalogues){
-                if (Objects.equals(catalogue.getName(), catalogueName)){
+        printCatalogue(categories);
+        String categoryName;
+        while (!Objects.equals(categoryName = in.nextLine(), "exit")){
+            for (Category category : categories){
+                if (Objects.equals(category.getName(), categoryName)){
                     AtomicInteger index = new AtomicInteger(1);
-                    Arrays.stream(catalogue.getProducts())
+                    Arrays.stream(category.getProducts())
                             .map(i -> index.getAndIncrement())
-                            .map(i -> "" + i + ". " + catalogue.getProducts()[i-1]
-                                    +", " + catalogue.getProducts()[i-1].getPrice())
+                            .map(i -> i + ". " + category.getProducts()[i-1]
+                                    +", " + category.getProducts()[i-1].getPrice())
                             .forEach(System.out::println);
                     System.out.println("Anything interesting? (yes/no)");
                     String interested = in.nextLine();
                     if (Objects.equals(interested, "yes")){
                         System.out.println("What exactly? Enter a number");
                         int productIndex = in.nextInt()-1;
-                        Product toBuy = catalogue.getProducts()[productIndex];
+                        Product toBuy = category.getProducts()[productIndex];
                         if (user.buy(toBuy.getPrice())){
-                            basketList.add(toBuy);
-                            user.setBasket(basketList);
+                            basket.add(toBuy);
+                            user.setBasket(basket);
                             System.out.println("Added to basket. Money left: " + user.getWallet());
-                            printCatalogue(catalogues);
+                            printCatalogue(categories);
                         }else{
                             System.out.println("Not enough money");
-                            printCatalogue(catalogues);
+                            printCatalogue(categories);
                         }
                     }else if(Objects.equals(interested, "no")){
-                        printCatalogue(catalogues);
+                        printCatalogue(categories);
                         break;
                     }
                 }
             }
         }
-        user.total();
-*/
-        //testCheckout();
+        user.total();*/
+
+        testCheckout();
     }
     private static void testCheckout(){
-        ArrayList<Product> basket= new ArrayList<>(Arrays.asList(
-                Product.APPLE_AIRPODS_PRO,
-                Product.BOSE_QUIETCOMFORT_45_HEADPHONES)
-        );
+        Basket basket = new Basket();
+        basket.add(Product.APPLE_AIRPODS_PRO);
+        basket.add(Product.BOSE_QUIETCOMFORT_45_HEADPHONES);
         User user = new User("admin", "admin", basket, 1000);
         user.total();
     }
