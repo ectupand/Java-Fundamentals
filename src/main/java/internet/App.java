@@ -34,7 +34,8 @@ public class App {
         System.out.println("Password: ");
         String password = in.nextLine();
         Basket basket = new Basket();
-        User user = new User(login, password, basket, 1000);
+        int budget = 1000;
+        User user = new User(login, password, basket, budget);
 
         printCatalogue(categories);
         String categoryName;
@@ -69,16 +70,17 @@ public class App {
                 }
             }
         }
-        user.total();
+        user.total(budget);
 
         //testCheckout();
     }
     private static void testCheckout(){
         Basket basket = new Basket();
+        int budget = 1000;
         basket.add(Product.APPLE_AIRPODS_PRO);
         basket.add(Product.BOSE_QUIETCOMFORT_45_HEADPHONES);
-        User user = new User("admin", "admin", basket, 1000);
-        user.total();
+        User user = new User("admin", "admin", basket, budget);
+        user.total(budget);
     }
 
     private static void printCatalogue(Category[] catalogues){

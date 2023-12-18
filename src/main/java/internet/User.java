@@ -46,7 +46,7 @@ public class User {
         }
     }
 
-    public void total(){
+    public void total(int budget){
         LocalDate todayDate = LocalDate.now();
 
         int firstColumnLength = 0;
@@ -68,6 +68,6 @@ public class User {
             System.out.format(body, product.getName(), product.getPrice());
         }
         System.out.println(IntStream.range(0, firstColumnLength+9).mapToObj(i -> "-").collect(Collectors.joining("")));
-        System.out.format(body, "Total:", getWallet());
+        System.out.format(body, "Total:", budget-getWallet());
     }
 }
