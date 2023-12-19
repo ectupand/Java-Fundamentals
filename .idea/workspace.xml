@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd39b8fd-4136-4311-a9f3-5bcfcbdbae98" name="Changes" comment="real pretty checkout">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Atelier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/FemaleClothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/MaleClothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Necktie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Pants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/Skirt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/clothes/TShirt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +71,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.enums.App.executor": "Run",
     "Application.internet.App.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -72,14 +85,14 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.internet.App">
+  <component name="RunManager" selected="Application.enums.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interfaces.App" />
       <module name="wishmaster" />
@@ -156,8 +169,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.internet.App" />
         <item itemvalue="Application.enums.App" />
+        <item itemvalue="Application.internet.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.MinimumUniqueSymbolsFinder" />
         <item itemvalue="Application.FindWithRegex" />
@@ -190,6 +203,8 @@
       <workItem from="1702791954872" duration="22409000" />
       <workItem from="1702845158975" duration="598000" />
       <workItem from="1702845803284" duration="8175000" />
+      <workItem from="1702896340988" duration="2199000" />
+      <workItem from="1702931971272" duration="7637000" />
     </task>
     <task id="LOCAL-00001" summary="Person&amp;Students">
       <created>1702236811332</created>
@@ -346,9 +361,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/enums/App.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/main/java/enums/clothes/Atelier.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

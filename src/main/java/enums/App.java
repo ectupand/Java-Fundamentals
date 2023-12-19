@@ -1,4 +1,5 @@
 package enums;
+import enums.clothes.*;
 import enums.seasons.Season;
 
 public class App {
@@ -10,6 +11,17 @@ public class App {
                     + season.getDescription() + " "
             );
         }
+
+        System.out.println("------------------------------");
+        Atelier atelier = new Atelier();
+        atelier.dressFemale(new Clothes[]{
+                new Skirt(),
+                new Necktie(),
+                new TShirt(),
+                new Pants(),
+                new Skirt()
+        });
+
     }
 }
 
